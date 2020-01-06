@@ -1,7 +1,3 @@
----
-title: "Getting Started"
-permalink: /getting-started/
----
 ![IoTivity logo](/Images/IoTivity%20logo.png)
 
 [**Getting Started**](gsg-home.md)   |   [**Getting Started FAQ**](getting-started-faq.md)   |   [**Digging Deeper**](digging-deeper.md)   |   [**GitHub Repository**](https://github.com/iotivity/iotivity-lite)   |   [**Wiki**](https://wiki.iotivity.org/start)   |   [**IoTivity.org**](https://iotivity.org)
