@@ -1,3 +1,7 @@
+![IoTivity logo](/Images/IoTivity%20logo.png)
+
+[**Getting Started**](gsg-home.md)   |   [**Getting Started FAQ**](getting-started-faq.md)   |   [**Digging Deeper**](digging-deeper.md)   |   [**GitHub Repository**](https://github.com/iotivity/iotivity-lite)   |   [**Wiki**](https://wiki.iotivity.org/start)   |   [**IoTivity.org**](https://iotivity.org)
+
 # Getting Started with IoTivity (Raspberry Pi Kit)
 
 ## Introduction
@@ -9,7 +13,7 @@ This Getting Started guide will show you how to quickly download, build, and run
 
 The two apps talk to each other over Wi-Fi, using the OCF protocol. 
 
- ![](C:\Users\Roni\Desktop\work today\Concrete (Creative Circle) 2019\Images\communication over OCF protocol.png)
+![Screen shot](/Images/communication%20over%20OCF%20protocol.png)
 
 ## Requirements
 
