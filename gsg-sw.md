@@ -1,3 +1,7 @@
+![IoTivity logo](/Images/IoTivity%20logo.png)
+
+[**Getting Started**](gsg-home.md)   |   [**Getting Started FAQ**](getting-started-faq.md)   |   [**Digging Deeper**](digging-deeper.md)   |   [**GitHub Repository**](https://github.com/iotivity/iotivity-lite)   |   [**Wiki**](https://wiki.iotivity.org/start)   |   [**IoTivity.org**](https://iotivity.org)
+
 # Getting Started with IoTivity (Device Simulation)
 
 ## Introduction
@@ -9,7 +13,7 @@ This guide will show you how to download, build, and run two simulated devices o
 
 The two apps talk to each other over a loopback connection, using the OCF protocol. 
 
-![OCF protocol over loopback connection](C:\Users\Roni\Desktop\work today\Concrete (Creative Circle) 2019\Images\OCF protocol over loopback connection.png)
+![OCF protocol over loopback connection](/Images/OCF%20protocol%20over%20loopback%20connection.png)
 
 **To use Windows:** To download, build, and run on Windows PC instead, check the Iotivity [FAQ](https://wiki.iotivity.org/getting_started_troubleshooting_and_faq).
 
@@ -69,17 +73,17 @@ The sample client application is called OTGC (Onboarding Tool and Generic Client
 
    The client application loads, and your server device (which, in this simulation, is simply another process on your PC) appears in the list.
 
-   ![](C:\Users\Roni\Desktop\work today\Concrete (Creative Circle) 2019\Images\client application loads.png)
+   ![client application loads](/Images/client%20application%20loads.png)
 
 4. Click the server device in the list and click the Onboard button.
 
-   ![](C:\Users\Roni\Desktop\work today\Concrete (Creative Circle) 2019\Images\click the Onboard button.png)
+   ![onboard button](/Images/click%20the%20Onboard%20button.png)
 
 6. Change the device name, if you wish, and click OK.
 
 7. In the Generic Client tab, toggle the Value switch on and off. 
 
-   ![](C:\Users\Roni\Desktop\work today\Concrete (Creative Circle) 2019\Images\toggle the Value switch on and off.png)
+   ![value switch](/Images/toggle%20the%20Value%20switch%20on%20and%20off.png)
 
    Notice that the console output in the server terminal responds to the actions in the client. This simulates controlling your smart home device with, for example, a mobile phone client.
 
@@ -87,7 +91,6 @@ The sample client application is called OTGC (Onboarding Tool and Generic Client
 
 ## Customize the Code
 
-**[Needs detail from OCF]**
 IoTivity provides a tool for automatically generating server code as a significant head start for your software development. The code generation tool works from a JSON file created by you that describes the capabilities of your device. 
 
 The server code you compiled and ran in this tutorial began from a file called example.json, found in the ~/iotivity-lite/ directory.
