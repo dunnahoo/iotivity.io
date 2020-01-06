@@ -1,7 +1,7 @@
----
-title: "Digging Deeper: Next Steps"
-permalink: /digging-deeper/
----
+![IoTivity logo](/Images/IoTivity%20logo.png)
+
+[**Getting Started**](gsg-home.md)   |   [**Getting Started FAQ**](getting-started-faq.md)   |   [**Digging Deeper**](digging-deeper.md)   |   [**GitHub Repository**](https://github.com/iotivity/iotivity-lite)   |   [**Wiki**](https://wiki.iotivity.org/start)   |   [**IoTivity.org**](https://iotivity.org)
+
 # Digging Deeper: Next Steps for Development
 
 To learn more about developing IoT devices with IoTivity, read the following:
@@ -18,8 +18,3 @@ Folder structure, recommended development flow and description of core scripts.
 
 From initializing the stack through managing scenes and details in between.
 
-
-
-
-
-(Links to APIs? Other curated items?)
