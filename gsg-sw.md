@@ -1,4 +1,4 @@
-![IoTivity logo](/Images/IoTivity%20logo.png)
+![IoTivity logo](/Images/IoTivity-logo.png)
 
 [**Getting Started**](gsg-home.md)   |   [**Getting Started FAQ**](getting-started-faq.md)   |   [**Digging Deeper**](digging-deeper.md)   |   [**GitHub Repository**](https://github.com/iotivity/iotivity-lite)   |   [**Wiki**](https://wiki.iotivity.org/start)   |   [**IoTivity.org**](https://iotivity.org)
 
@@ -13,7 +13,7 @@ This guide will show you how to download, build, and run two simulated devices o
 
 The two apps talk to each other over a loopback connection, using the OCF protocol. 
 
-![OCF protocol over loopback connection](/Images/OCF%20protocol%20over%20loopback%20connection.png)
+![OCF protocol over loopback connection](/Images/ocfprotocol-loopback-connection.png)
 
 **To use Windows:** To download, build, and run on Windows PC instead, check the Iotivity [FAQ](https://wiki.iotivity.org/getting_started_troubleshooting_and_faq).
 
@@ -73,17 +73,17 @@ The sample client application is called OTGC (Onboarding Tool and Generic Client
 
    The client application loads, and your server device (which, in this simulation, is simply another process on your PC) appears in the list.
 
-   ![client application loads](/Images/client%20application%20loads.png)
+   ![client application loads](/Images/client-application-loads.png)
 
 4. Click the server device in the list and click the Onboard button.
 
-   ![onboard button](/Images/click%20the%20Onboard%20button.png)
+   ![onboard button](/Images/onboard-button.png)
 
 6. Change the device name, if you wish, and click OK.
 
 7. In the Generic Client tab, toggle the Value switch on and off. 
 
-   ![value switch](/Images/toggle%20the%20Value%20switch%20on%20and%20off.png)
+   ![value switch](/Images/toggle-switch.png)
 
    Notice that the console output in the server terminal responds to the actions in the client. This simulates controlling your smart home device with, for example, a mobile phone client.
 
@@ -131,7 +131,7 @@ Now that you’ve run a quick simulation on your own development PC to experienc
 
 A workshop kit includes a Pimoroni input/output board that most clearly shows the capabilities of IoTivity. If you already have a Raspberry Pi board and don’t want to order the full kit, you can run a simpler demonstration.
 
-### [roni]Tutorial for Raspberry Pi kit with input/output
+### [Tutorial for Raspberry Pi kit with input/output](gsg-kit.md)
 
 Sample project code and instructions for kit including Raspberry Pi and Pimoroni Explorer HAT input/output board.
 
@@ -143,14 +143,14 @@ Sample project code and instructions for bare Raspberry Pi board. **[To be devel
 
 To learn more about developing IoT devices with IoTivity, read the following:
 
-### Development workflow tutorial 
+### [Development workflow tutorial](https://github.com/openconnectivity/IOTivity-Lite-setup/blob/master/Readme.md)
 
-Create a whole separate test project (create configuration file, generate device server code, build, and use). **[To be developed by OCF. This tutorial will go beyond the simple Customize the Code exercise above. It will walk the developer through creating a new project from scratch.]**
+Create a whole separate test project (create configuration file, generate device server code, build and use). **[To be developed by OCF. This tutorial will go beyond the simple Customize the Code exercise above. It will walk the developer through creating a new project from scratch.]**
 
-### Development workflow reference
+### [Development workflow reference](https://github.com/openconnectivity/IOTivity-Lite-setup/blob/master/Readme.md)
 
-Folder structure, recommended development flow, and description of core scripts.
+Folder structure, recommended development flow and description of core scripts.
 
-### Detailed programming guide
+### [Detailed programming guide](https://wiki.iotivity.org/)
 
 From initializing the stack through managing scenes and details in between.

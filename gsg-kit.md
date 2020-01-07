@@ -1,4 +1,4 @@
-![IoTivity logo](/Images/IoTivity%20logo.png)
+![IoTivity logo](/Images/IoTivity-logo.png)
 
 [**Getting Started**](gsg-home.md)   |   [**Getting Started FAQ**](getting-started-faq.md)   |   [**Digging Deeper**](digging-deeper.md)   |   [**GitHub Repository**](https://github.com/iotivity/iotivity-lite)   |   [**Wiki**](https://wiki.iotivity.org/start)   |   [**IoTivity.org**](https://iotivity.org)
 
@@ -13,7 +13,7 @@ This Getting Started guide will show you how to quickly download, build, and run
 
 The two apps talk to each other over Wi-Fi, using the OCF protocol. 
 
-![Screen shot](/Images/communication%20over%20OCF%20protocol.png)
+![OCF protocol](/Images/communication-over-ocf-protocol.png)
 
 ## Requirements
 
@@ -29,7 +29,7 @@ The first two items are available together in a kit [here](https://openconnectiv
 ## Set up the Raspberry Pi
 
 1. *Before* connecting power, attach the Explorer HAT board to the GPIO header on the Raspberry Pi. Be careful not to bend the pins, as the connector fits very tightly. (At this point, you don’t need the blue breadboard, but you can attach it later, with adhesive, to add other inputs and outputs to your IoTivity test setup.) 
-![](C:\Users\Roni\Desktop\work today\Concrete (Creative Circle) 2019\Images\attach Explorer HAT plus blue board.png)
+![OCF protocol](/Images/attach-HAT-plus-blue-board.png)
 3. Insert the micro SD card into the slot under the Pi board.
 4. Connect an Ethernet cable between the Pi board and your DHCP-enabled network.
 5. Attach the power cable to the Pi board and plug it in.
@@ -225,16 +225,17 @@ The steps below will show you how to make a simple change to the JSON file, reco
 
 ## Next Steps for Development
 
-To learn more about developing IoT devices with IoTivity, read the following.
+To learn more about developing IoT devices with IoTivity, read the following:
 
-### [Development workflow tutorial](https://github.com/openconnectivity/IOTivity-Lite-setup/blob/master/Readme.md) 
+### [Development workflow tutorial](https://github.com/openconnectivity/IOTivity-Lite-setup/blob/master/Readme.md)
 
-Create a whole separate test project (create configuration file, generate device server code, build, and use). **[To be developed by OCF. This tutorial will go beyond the simple Customize the Code exercise above. It will walk the developer through creating a new project from scratch.]**
+Create a whole separate test project (create configuration file, generate device server code, build and use). **[To be developed by OCF. This tutorial will go beyond the simple Customize the Code exercise above. It will walk the developer through creating a new project from scratch.]**
 
 ### [Development workflow reference](https://github.com/openconnectivity/IOTivity-Lite-setup/blob/master/Readme.md)
 
-Folder structure, recommended development flow, and description of core scripts.
+Folder structure, recommended development flow and description of core scripts.
 
 ### [Detailed programming guide](https://wiki.iotivity.org/)
 
 From initializing the stack through managing scenes and details in between.
+
